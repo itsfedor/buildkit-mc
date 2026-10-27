@@ -1,0 +1,24 @@
+name: BuildKit
+version: '1.0.0'
+main: com.nous.buildkit.BuildKitPlugin
+api-version: '1.21'
+authors: [Nous]
+description: Headless batch building - structures with rotation/mirror, scripts, grid, walkcheck, snapshots, undo
+commands:
+  bk:
+    description: BuildKit headless builder
+    usage: /bk help
+    permission: buildkit.use
+permissions:
+  buildkit.use:
+    description: Base access to /bk (op-only by default)
+    default: op
+  buildkit.place:
+    description: /bk place and /bk grid
+    default: op
+  buildkit.run:
+    description: /bk run scripts
+    default: op
+  buildkit.undo:
+    description: /bk undo
+    default: op
