@@ -10,7 +10,7 @@
 [![Paper 26.1.2](https://img.shields.io/badge/Paper-26.1.2-3ddc84)](#requirements)
 [![Java 21](https://img.shields.io/badge/Java-21-e76f00?logo=openjdk&logoColor=fff)](#requirements)
 [![No Gradle](https://img.shields.io/badge/build-ECJ%20%2B%20bash-2b2b2b)](#build)
-[![License: AGPL-3.0](https://img.shields.io/badge/License-AGPL--3.0-blue.svg)](LICENSE)
+[![License: Apache-2.0](https://img.shields.io/badge/License-Apache--2.0-blue.svg)](LICENSE)
 
 A Paper plugin that turns "build this district on the server" into something an agent can
 run headlessly: one console command `/bk`, no WorldEdit, no `//`-commands, no Gradle.
@@ -94,4 +94,4 @@ Paper 26.1.2 (tested on `26.1.2-74-e4e17fc`), Java 21+. Permissions: `buildkit.u
 
 ## License
 
-AGPL-3.0. Builds on Paper API; no Paper code is vendored.
+Apache-2.0. Builds on Paper API; no Paper code is vendored.
